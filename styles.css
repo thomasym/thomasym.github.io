@@ -1,0 +1,108 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-overflow: ellipsis;
+	font-family: 'Nunito Sans', sans-serif;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	display: inline-flex;
+	margin: 0;
+	padding-left: 20px;
+	color: hsl(0, 0%, 100%);
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+h3 {
+	display: inline-flex;
+	margin: 0;
+	padding-left: 20px;
+	color: hsl(0, 0%, 100%);
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*p {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.64px;
+	text-align: center;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}*/
+
+.solid {
+
+}
+
+header {
+	padding-top: 1em;
+	margin: 0;
+	background-color: hsl(0, 0%, 0%);
+}
+
+.container-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.item-1{
+	flex: 1;
+	background-color: hsl(0, 0%, 0%);
+	width: 60em;
+	height: 60em;
+}
+
+.item-2 {
+	flex: 1;
+	background-color: hsl(0, 0%, 0%);
+	width: 60em;
+	height: 60em;
+}
+
+.item-3 {
+	flex: 1;
+	background-color: hsl(0, 0%, 0%);
+}
+
+.icon-medium {
+	background-image: url("Resources/Images/Medium_White.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 80%;
+	height: 100%;
+	width: 100%;
+}
+
+.icon-behance {
+	background-image: url("Resources/Images/Behance_White.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 80%;
+	width: 100%;
+	height: 100%;
+}
+
+.icon-soundanimated {
+	
+}
