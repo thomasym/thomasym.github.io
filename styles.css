@@ -1,6 +1,7 @@
 html {
 	height: 100%;
 	width: 100%;
+	background-color: hsl(0, 0%, 0%);
 }
 
 body {
@@ -10,7 +11,6 @@ body {
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
-	overflow-y: auto;
 	text-overflow: ellipsis;
 	font-family: 'Nunito Sans', sans-serif;
 	text-rendering: optimizeLegibility;
@@ -25,6 +25,7 @@ h1 {
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	vertical-align: top;
 }
 
 h3 {
@@ -37,59 +38,56 @@ h3 {
 	text-transform: uppercase;
 }
 
-/*p {
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: 0.64px;
-	text-align: center;
-	margin-top: 6%;
-	margin-bottom: 6%;
-}*/
-
 .solid {
-
+	height: inherit;
+	width: inherit;
 }
 
 header {
-	padding-top: 1em;
-	margin: 0;
+	position: fixed;
+	padding: 24px 0px;
+	width: 100%;
+	height: 24px;
 	background-color: hsl(0, 0%, 0%);
+	z-index: 2;
 }
 
 .container-1 {
+	position: absolute;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	width: 100%;
+	overflow-y: auto;
+	width: inherit;
+	top: 72px;
+	bottom: 0px;
+	z-index: 1;
 }
 
-.item-1{
+.item-1 {
 	flex: 1;
 	background-color: hsl(0, 0%, 0%);
-	width: 60em;
-	height: 60em;
+	height: 100%;
+	width: 100%;
 }
 
 .item-2 {
 	flex: 1;
 	background-color: hsl(0, 0%, 0%);
-	width: 60em;
-	height: 60em;
+	height: 100%;
+	width: 100%;
 }
 
 .item-3 {
 	flex: 1;
 	background-color: hsl(0, 0%, 0%);
+	height: 100%;
+	width: 100%;
 }
 
 .icon-medium {
 	background-image: url("Resources/Images/Medium_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: 80%;
+	background-size: 60% auto;
 	height: 100%;
 	width: 100%;
 }
@@ -98,11 +96,89 @@ header {
 	background-image: url("Resources/Images/Behance_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: 80%;
+	background-size: 60% auto;
 	width: 100%;
 	height: 100%;
 }
 
 .icon-soundanimated {
-	
+	background-image: url("Resources/Images/SoundAnimated_White.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 60% auto;
+	width: 100%;
+	height: 100%;
+}
+
+.item-1:hover {
+	background-color: hsl(0, 0%, 100%);
+}
+
+.item-2:hover {
+	background-color: hsl(0, 0%, 100%);
+}
+
+.item-3:hover {
+	background-color: hsl(0, 0%, 100%);
+}
+
+.icon-medium:hover {
+	background-image: url("Resources/Images/Medium_Black.png");
+}
+
+.icon-behance:hover {
+	background-image: url("Resources/Images/Behance_Black.png");
+}
+
+.icon-soundanimated:hover {
+	background-image: url("Resources/Images/SoundAnimated_Black.png");
+}
+
+
+@media (orientation: portrait) {
+	.container-1 {
+		flex-direction: column;
+	}
+	.item-1:after {
+	content: "";
+	display: block;
+	padding-top: 100%;
+	}
+	.item-1 {
+		position: relative;
+		width: 100%;
+	}
+	.item-1 a {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+	.item-2:after {
+	content: "";
+	display: block;
+	padding-top: 100%;
+	}
+	.item-2 {
+		position: relative;
+		width: 100%;
+	}
+	.item-2 a {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+	.item-3:after {
+	content: "";
+	display: block;
+	padding-top: 100%;
+	}
+	.item-3 {
+		position: relative;
+		width: 100%;
+	}
+	.item-3 a {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
 }
