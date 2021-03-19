@@ -1,11 +1,8 @@
-:body:after {
-  content: url("Resources/Images/Behance_Black.png")
-           url("Resources/Images/Medium_Black.png")
-           url("Resources/Images/SoundAnimated_Black.png");
-  visibility: hidden;
-  position: absolute;
-  left: -999em;
-}
+.preload-images {
+	background: url("Resources/Images/Behance_Black.png") no-repeat -9999px -9999px,
+		    url("Resources/Images/Medium_Black.png") no-repeat -9999px -9999px,
+		    url("Resources/Images/SoundAnimated_Black.png") no-repeat -9999px -9999px;
+	}
 
 html {
 	height: 100%;
