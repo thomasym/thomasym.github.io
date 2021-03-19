@@ -1,8 +1,11 @@
-.preload-images {
-	background: url("Resources/Images/Behance_Black.png") no-repeat -9999px -9999px,
-		    url("Resources/Images/Medium_Black.png") no-repeat -9999px -9999px,
-		    url("Resources/Images/SoundAnimated_Black.png") no-repeat -9999px -9999px;
-	}
+.preload {
+	width: 0px;
+	height: 0px;
+	display: inline;
+	background-image: url("Resources/Images/Behance_Black.png");
+	background-image: url("Resources/Images/Medium_Black.png");
+	background-image: url("Resources/Images/SoundAnimated_Black.png");
+}
 
 html {
 	height: 100%;
