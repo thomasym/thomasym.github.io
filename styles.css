@@ -93,7 +93,7 @@ header {
 }
 
 .icon-medium {
-	background-image: url("Resources/Images/Medium_White.png");
+	background-image: url("Resources/Images/ArtStation_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 60% auto;
@@ -132,7 +132,7 @@ header {
 }
 
 .icon-medium:hover {
-	background-image: url("Resources/Images/Medium_Black.png");
+	background-image: url("Resources/Images/ArtStation_Black.png");
 }
 
 .icon-behance:hover {
