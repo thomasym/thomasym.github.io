@@ -2,7 +2,6 @@ html {
 	height: 100%;
 	width: 100%;
 	background-color: hsl(0, 0%, 0%);
-	background: url("Resources/Images/ArtStation_Black.png") no-repeat -9999px -9999px;
 }
 
 body {
@@ -88,7 +87,7 @@ header {
 }
 
 .icon-medium {
-	background-image: url("Resources/Images/ArtStation_Black.png");
+	background: url("Resources/Images/ArtStation_Black.png") no-repeat -9999px -9999px;
 	background-image: url("Resources/Images/ArtStation_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -98,7 +97,7 @@ header {
 }
 
 .icon-behance {
-	background-image: url("Resources/Images/Behance_Black.png");
+	background: url("Resources/Images/SoundAnimated_Black.png") no-repeat -9999px -9999px;
 	background-image: url("Resources/Images/Behance_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -108,7 +107,7 @@ header {
 }
 
 .icon-soundanimated {
-	background-image: url("Resources/Images/SoundAnimated_Black.png");
+	background: url("Resources/Images/SoundAnimated_Black.png") no-repeat -9999px -9999px;
 	background-image: url("Resources/Images/SoundAnimated_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
