@@ -87,7 +87,10 @@ header {
 }
 
 .icon-medium {
+	background-image: url("Resources/Images/ArtStation_Black.png");
 	background-image: url("Resources/Images/ArtStation_White.png");
+	background-color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 0%);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 60% auto;
@@ -96,7 +99,10 @@ header {
 }
 
 .icon-behance {
+	background-image: url("Resources/Images/Behance_Black.png");
 	background-image: url("Resources/Images/Behance_White.png");
+	background-color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 0%);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 60% auto;
@@ -105,24 +111,15 @@ header {
 }
 
 .icon-soundanimated {
+	background-image: url("Resources/Images/SoundAnimated_Black.png");
 	background-image: url("Resources/Images/SoundAnimated_White.png");
+	background-color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 0%);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 60% auto;
 	width: 100%;
 	height: 100%;
-}
-
-.item-1:hover {
-	background-color: hsl(0, 0%, 100%);
-}
-
-.item-2:hover {
-	background-color: hsl(0, 0%, 100%);
-}
-
-.item-3:hover {
-	background-color: hsl(0, 0%, 100%);
 }
 
 .icon-medium:hover {
@@ -135,6 +132,18 @@ header {
 
 .icon-soundanimated:hover {
 	background-image: url("Resources/Images/SoundAnimated_Black.png");
+}
+
+.item-1:hover {
+	background-color: hsl(0, 0%, 100%);
+}
+
+.item-2:hover {
+	background-color: hsl(0, 0%, 100%);
+}
+
+.item-3:hover {
+	background-color: hsl(0, 0%, 100%);
 }
 
 
