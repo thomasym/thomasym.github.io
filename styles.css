@@ -3,8 +3,6 @@ html {
 	width: 100%;
 	background-color: hsl(0, 0%, 0%);
 	background: url("Resources/Images/ArtStation_Black.png") no-repeat -9999px -9999px;
-	background: url("Resources/Images/Behance_Black.png") no-repeat -9999px -9999px;
-	background: url("Resources/Images/SoundAnimated_Black.png") no-repeat -9999px -9999px;
 }
 
 body {
