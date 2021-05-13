@@ -86,7 +86,16 @@ header {
 	width: 100%;
 }
 
-.icon-medium {
+.icon-artstation-b {
+	background-image: url("Resources/Images/ArtStation_Black.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 60% auto;
+	height: 100%;
+	width: 100%;
+}
+
+.icon-artstation-w {
 	background-image: url("Resources/Images/ArtStation_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -113,8 +122,8 @@ header {
 	height: 100%;
 }
 
-.icon-medium:hover {
-	background-image: url("Resources/Images/ArtStation_Black.png");
+.icon-artstation-w:hover {
+	visibility:hidden;
 }
 
 .icon-behance:hover {
