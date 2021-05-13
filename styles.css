@@ -72,7 +72,7 @@ header {
 
 .item-2 {
 	flex: 1;
-	background: url("Resources/Images/SoundAnimated_Black.png") no-repeat -9999px -9999px;
+	background: url("Resources/Images/Behance_Black.png") no-repeat -9999px -9999px;
 	background-color: hsl(0, 0%, 0%);
 	height: 100%;
 	width: 100%;
@@ -86,16 +86,7 @@ header {
 	width: 100%;
 }
 
-.icon-artstation-b {
-	background-image: url("Resources/Images/ArtStation_Black.png");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 60% auto;
-	height: 100%;
-	width: 100%;
-}
-
-.icon-artstation-w {
+.icon-artstation {
 	background-image: url("Resources/Images/ArtStation_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -122,8 +113,8 @@ header {
 	height: 100%;
 }
 
-.icon-artstation-w:hover {
-	visibility:hidden;
+.icon-artstation:hover {
+	background-image: url("Resources/Images/ArtStation_Black.png");
 }
 
 .icon-behance:hover {
