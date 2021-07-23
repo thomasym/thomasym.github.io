@@ -16,6 +16,11 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
 	display: inline-flex;
 	margin: 0;
@@ -64,7 +69,7 @@ header {
 
 .item-1 {
 	flex: 1;
-	background: url("Resources/Images/ArtStation_Black.png") no-repeat -9999px -9999px;
+	background: url("Resources/Images/Medium_Black.png") no-repeat -9999px -9999px;
 	background-color: hsl(0, 0%, 0%);
 	height: 100%;
 	width: 100%;
@@ -87,7 +92,7 @@ header {
 }
 
 .icon-artstation {
-	background-image: url("Resources/Images/ArtStation_White.png");
+	background-image: url("Resources/Images/Medium_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 60% auto;
@@ -114,7 +119,7 @@ header {
 }
 
 .icon-artstation:hover {
-	background-image: url("Resources/Images/ArtStation_Black.png");
+	background-image: url("Resources/Images/Medium_Black.png");
 }
 
 .icon-behance:hover {
