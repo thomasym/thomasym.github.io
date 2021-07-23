@@ -91,7 +91,7 @@ header {
 	width: 100%;
 }
 
-.icon-artstation {
+.icon-medium {
 	background-image: url("Resources/Images/Medium_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -118,7 +118,7 @@ header {
 	height: 100%;
 }
 
-.icon-artstation:hover {
+.icon-medium:hover {
 	background-image: url("Resources/Images/Medium_Black.png");
 }
 
