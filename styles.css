@@ -91,8 +91,8 @@ header {
 	width: 100%;
 }
 
-.icon-medium {
-	background-image: url("Resources/Images/Medium_White.png");
+.icon-reel {
+	background-image: url("Resources/Images/Reel_White.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 60% auto;
@@ -118,8 +118,8 @@ header {
 	height: 100%;
 }
 
-.icon-medium:hover {
-	background-image: url("Resources/Images/Medium_Black.png");
+.icon-reel:hover {
+	background-image: url("Resources/Images/Reel_Black.png");
 }
 
 .icon-behance:hover {
