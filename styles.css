@@ -69,7 +69,7 @@ header {
 
 .item-1 {
 	flex: 1;
-	background: url("Resources/Images/Medium_Black.png") no-repeat -9999px -9999px;
+	background: url("Resources/Images/Reel_Black.png") no-repeat -9999px -9999px;
 	background-color: hsl(0, 0%, 0%);
 	height: 100%;
 	width: 100%;
@@ -148,9 +148,9 @@ header {
 		flex-direction: column;
 	}
 	.item-1:after {
-	content: "";
-	display: block;
-	padding-top: 100%;
+		content: "";
+		display: block;
+		padding-top: 100%;
 	}
 	.item-1 {
 		position: relative;
@@ -162,9 +162,9 @@ header {
 		width: 100%;
 	}
 	.item-2:after {
-	content: "";
-	display: block;
-	padding-top: 100%;
+		content: "";
+		display: block;
+		padding-top: 100%;
 	}
 	.item-2 {
 		position: relative;
@@ -176,9 +176,9 @@ header {
 		width: 100%;
 	}
 	.item-3:after {
-	content: "";
-	display: block;
-	padding-top: 100%;
+		content: "";
+		display: block;
+		padding-top: 100%;
 	}
 	.item-3 {
 		position: relative;
